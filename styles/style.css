@@ -1,0 +1,119 @@
+html {
+	font-size: 1.1em;
+	margin:0;
+	color: black;
+	font-family: tahoma, helvetica;
+	height: 100%;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+}
+
+nav.navbar {
+	box-shadow: 0px 2px 5px gray;
+}
+
+.navGlyphicon {
+	color: #ccccff
+}
+
+/* ------------------------   about-section     ---------------------------------------------------
+-------------------------------------------------------------------------------------------------*/
+
+#about {
+	height: 88vh;
+	background-color: #c7d6e8;
+}
+
+#navbar-brand {	
+	margin-left: 30px;
+}
+
+.aboutContainer {
+  position: relative;
+  width: 100%;
+}
+
+.aboutOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #add6ff ;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+
+}
+
+div#content {
+	margin-top: 150px;
+}
+
+div.parallax {
+	background-image: url("img/aboutimage2.jpg");
+	height: 100%;  
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#intro {
+	margin-top: 100px;
+	color: #000;
+	padding: 20px 25px;
+	border-radius: 90px 0px;
+	font-family: Lobster, Material;
+	text-align:justify-all;
+}
+
+#textUnderHeading {
+	font-size: 1.3em;
+}
+
+input[type=text], input[type=password], input[type=submit] {
+	padding: 10px 20px;
+    margin: 2px 0 10px 0;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffd;
+}
+
+input[type=submit] {
+	background-color: #555;
+	color: #ddd;
+	width: 120px;
+}
+
+
+/* ------------------------   footer-section     ---------------------------------------------------
+-------------------------------------------------------------------------------------------------*/
+.footer {
+	background-color: #222;
+	height: 15vh
+	color: #eee;
+	padding: 10px 0px 0px;
+}
+
+div.copyright {
+	font-family:Comfortaa, Tahoma;
+	margin: 20px auto 26px;
+	color: #eee;
+}
+
+span#copy {
+	color: #fff;
+}
